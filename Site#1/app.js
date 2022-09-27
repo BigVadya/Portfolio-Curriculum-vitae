@@ -18,3 +18,5 @@ links.forEach((link, i) => {
         }
     })
 })
+
+console.log('Have a nice day! P.S. From TheHandOfLord.')
