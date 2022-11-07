@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 300%;
+    width: 100%;
+    max-width: 1400px;
+    display: block;
+    margin: auto;
+    min-height: 100vh;
+    background: black;
+    font-family: system-ui;
+}
+
+.text{
+    color: white;
+}
+
+.navbar{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9;
+    background: black;
+}
+
+.link-group{
+    list-style: none;
+    display: flex;
+}
+
+.link a{
+    color: white;
+    opacity: 0.5;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 10px 30px;
+    margin: 0 20px;
+    line-height: 80px;
+    /*transition: .5s;*/
+    font-size: 20px;
+}
+
+.link a:hover, .link.active a{
+    opacity: 1;
+}
+
+.theme{
+    display: flex;
+    position: relative;
+    left: 330px;
+}
+
+.change-theme{
+    height: 40px;
+    text-transform: capitalize;
+    font-size: 18px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.icon{
+    width: 24px;
+    height: 24px;
+}
+
+.section-bank{
+    width: 100%;
+    height: 100vh;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: 0;
+    opacity: 1;
+    transition: 1s;
+}
+
+.title-bank{
+    color: black;
+    font-size: 110px;
+    text-transform: capitalize;
+    font-weight: 300;
+
+    background: white;
+    margin-bottom: 50px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 6px transparent;
+}
+
+.bank-img{
+    position: sticky;
+    right: 0;
+    height: 90%;
+    width: 55%;
+    object-fit: cover;
+    opacity: 1;
+}
+
+.title-invest, .title-credits, .title-contacts{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 10px;
+    color: white;
+    font-size: 110px;
+    text-transform: capitalize;
+    font-weight: 300;
+}
+
+.section-invest{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 100px;
+
+}
+
+.div-invest{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.div-btn{
+    height: 40px;
+    text-transform: capitalize;
+    font-size: 18px;
+    border: none;
+    background: #fff;
+    color: #000;
+    cursor: pointer;
+    padding: 5px;
+}   
+
+.section-cards{
+    height: 50vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 100px;
+}
+
+.div-cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.section-contacts{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 100px;
+}
+
+.div-contacts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+
+.map{
+    width: 100%;
+    height: 90%;
+    padding: 10px;
+    border: 2px solid white;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+}
+
+.map iframe{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+footer{
+    height: 100px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9;
+    color: darkred;
+    font-size: 30px; 
+}
