@@ -277,6 +277,9 @@ body{
     padding: 10px;
 }
 .up span{
+    display: flex;
+    justify-content: center;
+    width: 265px;
     color: #004E72;
     font-size: 25px;
     font-weight: 600;
@@ -289,7 +292,9 @@ body{
 }
 
 .middle-case{
-
+    display: flex;
+    justify-content: center;
+    width: 265px;
     font-size: 30px;
     font-weight: 600;
     color: #702963;
